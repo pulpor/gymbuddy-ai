@@ -21,16 +21,17 @@ function spa404Plugin(): Plugin {
 }
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   base: '/gymbuddy-ai/',
   server: {
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger(), spa404Plugin()].filter(Boolean),
+  plugins: [react(), componentTagger(), spa404Plugin()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-}));
+  // build padrão, Vite já copia favicon de public/
+});
