@@ -33,5 +33,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // build padrão, Vite já copia favicon de public/
 });
