@@ -219,13 +219,6 @@ rm -rf node_modules bun.lockb package-lock.json
 npm install
 npm run build
 ```
-
-## 📞 Suporte
-
-- 📧 Email: [seu-email@exemplo.com]
-- 🐛 Issues: [GitHub Issues](https://github.com/pulppor/gymbuddy-ai/issues)
-- 💬 Discussões: [GitHub Discussions](https://github.com/pulppor/gymbuddy-ai/discussions)
-
 ## 🙏 Agradecimentos
 
 - [shadcn](https://twitter.com/shadcn) pelos componentes incríveis
